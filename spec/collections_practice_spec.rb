@@ -47,18 +47,7 @@ describe 'collections practice vol 2.' do
     ]
   }
 
-  let(:cool) {
-    [
-            {
-                   :name => "ashley",
-            :temperature => "sort of cool"
-        },
-            {
-                   :name => "blake",
-            :temperature => "cool"
-        }
-    ]
-  }
+  let(:cool) {[{:name => "ashley", :temperature => "sort of cool"}, {:name => "blake", :temperature => "cool"}]}
 
   let(:schools) {
     {
@@ -121,7 +110,7 @@ describe 'collections practice vol 2.' do
   end
 
   describe '#remove_non_strings' do
-    
+
     # Hint: Use the method "class"  "blake".class
 
     # Question 4
